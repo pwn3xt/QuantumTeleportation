@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project was developed as part of a team project for the CSE454s Quantum Communication and Security subject at Ain Shams University. It demonstrates a quantum communication protocol implemented using Qiskit, IBM's open-source quantum computing framework. The protocol involves the creation of entangled qubits by Alice, followed by conditional quantum gates and measurements, resulting in a quantum communication between Alice and Bob.
+This project was developed as part of a team project for the Quantum Communication and Security(CSE454s) at Ain Shams University. It demonstrates a quantum communication protocol implemented using Qiskit, IBM's open-source quantum computing framework. The protocol involves the creation of entangled qubits by Alice, followed by conditional quantum gates and measurements, resulting in a quantum communication between Alice and Bob.
 
 ## Key Features
 
