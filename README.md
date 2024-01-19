@@ -14,10 +14,6 @@ This project was developed as part of a team project for the CSE454s Quantum Com
 
 - **Simulated Execution:** The project utilizes Qiskit's simulator to execute the quantum circuit, allowing users to explore the quantum communication protocol in a simulated environment.
 
-## Code Structure
-
-The code is organized into sections for quantum register creation, gate application, classical register setup for measurements, conditional operations, and simulation execution.
-
 ## Usage
 
 Users can explore the quantum communication protocol by running the provided Qiskit code. The simulated results offer insights into the behavior of entangled qubits and the impact of conditional quantum operations.
