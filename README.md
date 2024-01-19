@@ -1,4 +1,4 @@
-# Quantum Communication Protocol with Qiskit
+# Quantum Teleportation Protocol with Qiskit
 
 ## Overview
 
