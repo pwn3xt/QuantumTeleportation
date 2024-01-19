@@ -1,39 +1,28 @@
 # Quantum Teleportation Protocol with Qiskit
+<img src="https://media.giphy.com/media/cW55zyF7dJAf6/giphy.gif"/>
 
-## Overview
+This repository contains two quantum circuits implemented using [Qiskit](https://www.ibm.com/quantum/qiskit) . The circuits demonstrate basic quantum entanglement, which is employed as a fundamental component in the second quantum teleportation circuit. 
 
-This project was developed as part of a team project for the Quantum Communication and Security(CSE454s) at Ain Shams University. It demonstrates a quantum communication protocol implemented using Qiskit, IBM's open-source quantum computing framework. The protocol involves the creation of entangled qubits by Alice, followed by conditional quantum gates and measurements, resulting in a quantum communication between Alice and Bob.
 
-## Key Features
+## Circuits
 
-- **Quantum Circuit Design:** Utilizes Qiskit to design a quantum circuit involving quantum registers for Alice and Bob, applying various quantum gates, and setting up conditional operations.
+1. **Entanglement Circuit (`bellPair_prep.ipynb`):**
+   - Establishes an entangled state between two qubits for Alice and one qubit for Bob.
+   - Utilizes Hadamard and controlled-X gates to create quantum entanglement.
+   - Measures and simulates the outcomes using Qiskit's quantum simulator.
+   ![image](https://github.com/pwn3xt/QuantumTeleportation/assets/62956414/3497c8b6-8da3-4e4d-b2c2-1c7a5cdfaf68)
 
-- **Entanglement Generation:** The circuit includes the creation of entangled qubits by Alice, a fundamental concept in quantum communication.
+2. **Quantum Teleportation Circuit (`teleportation.ipynb`):**
+   - Expands on entanglement with additional Quantum Teleportation Circuit.
+   - Includes single-qubit rotations, controlled gates, and measurements.
+   - Visualized with barriers for a clear representation of the quantum circuit.
+   ![image](https://github.com/pwn3xt/QuantumTeleportation/assets/62956414/e8068178-13bd-4538-ae30-7c1acd0f68c2)
 
-- **Conditional Operations:** Demonstrates conditional operations on Bob's qubit based on the measurement outcomes of Alice's qubits, showcasing conditional quantum computing.
 
-- **Simulated Execution:** The project utilizes Qiskit's simulator to execute the quantum circuit, allowing users to explore the quantum communication protocol in a simulated environment.
-
-## Usage
-
-Users can explore the quantum communication protocol by running the provided Qiskit code. The simulated results offer insights into the behavior of entangled qubits and the impact of conditional quantum operations.
-
-## Requirements
-
-- Python 3.x
-- Qiskit library
-- BasicAer backend
-
-## Getting Started
-
-1. Install the necessary dependencies.
-2. Run the provided Qiskit code on a quantum simulator backend.
-3. Analyze the simulation results to understand the quantum communication protocol.
+We also executed these circuits on real quantum hardware using the [IBM Quantum Experience website](https://quantum.ibm.com/) for a hands-on exploration of quantum computing.
 
 ## Acknowledgments
 
 - This project was developed as part of a team project for the CSE454s Quantum Communication and Security subject at Ain Shams University.
-- Inspired by quantum communication concepts, leveraging the capabilities of Qiskit.
-- Thanks to the Qiskit development team for creating an open-source framework for quantum computing.
+- The circuits are implemented using Qiskit, an open-source quantum computing framework developed by IBM. For more details on Qiskit, refer to the official Qiskit [Documentation](https://docs.quantum.ibm.com/).
 
-Explore the fascinating world of quantum communication with Qiskit and contribute to the advancement of quantum computing!
