@@ -23,6 +23,6 @@ We also executed these circuits on real quantum hardware using the [IBM Quantum 
 
 ## Acknowledgments
 
-- This project was developed as part of a team project for the CSE454s Quantum Communication and Security subject at Ain Shams University.
+- This project was developed as part of a team project for the CSE454s Quantum Communication and Security subject at Ain Shams University. The ohter parts can be found [here](https://github.com/0ssamaak0/QuanTorch) and [here](https://colab.research.google.com/drive/1mag2zSY_rgxOaHDJjdLGtUfQIftdSBOr#scrollTo=OrFkt6FGcheg)
 - The circuits are implemented using Qiskit, an open-source quantum computing framework developed by IBM. For more details on Qiskit, refer to the official Qiskit [Documentation](https://docs.quantum.ibm.com/).
 
